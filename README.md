@@ -1,6 +1,12 @@
 # vit-wk2-css
 CSS instruction and practice
 
+# Learning objectives
+ Box model
+ IDs and Classes
+ Borders
+ em and rem
+
 
 # Getting started
 We have three <div> elements that we are going to mess around with today and tomorrow. I will teach you the Box Model, how margins and padding work, borders, background, fonts, and flexbox- the king of the Mobile Web!
@@ -20,6 +26,20 @@ We have three <div> elements that we are going to mess around with today and tom
     You can adjust any aspect of the Box. If you need a margin on top, so be it. Need padding only on the left or right? No sweat. When adjusting any feature of the box, you can shortcut following  "top-right-bottom-left". This includes borders, radius values, etc. If it applies to the box model, it is top-right-bottom-left.
 
     You *can* use pixel values, but it is better to use percentage, viewport height (vh), viewport width (vw), rem, or em [more on these later]
+
+# Exercise 
+Using the testing.html file 
+- adjust the border of the <td> elements
+    possible value changes: solid, dotted, double, groove, ridge, inset, outset, none, hidden 
+- adjust the margin and padding of the <td> elements
+    values can be auto, px, em, rem, (or one of many other values)
+
+
+# IDs and Classes
+- a way to select one or more elements by attribute value
+- id is unique, can only be used once on a single page
+- classes identify one or more elements that have a shared class name
+    - these do not have to be the same type of element
 
 
 
