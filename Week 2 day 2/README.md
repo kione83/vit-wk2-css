@@ -50,14 +50,15 @@ Parent child selectors allows for your CSS to be more accurate and more scalable
 
 syntax for this is:
 
-parentName > childName {
+<code> parentName > childName {
     KEY : VALUE
-} 
+} </code>
 
 Example, I want to select all <li> elements are are part of an <ol> section, I would write
-ol > li {
+
+<code>ol > li {
     key:value;
-}
+} </code>
 This example would only target ORDERED list elements, leaving unordered lists alone
 
 this combination also works when selecting class/id selectors in parent/child relationships
@@ -70,9 +71,9 @@ You can justify content, which sets the content from left to right
 Or you can align content, which sets the content from top to bottom
 
 example
-
+<code>
 div > p.sidebar {
     justify-content: right;
     align-content: bottom;
-}
+} </code>
 This selector is only going to target paragraph elements within div elements that have the class of "sidebar". Using this type of selector can often be just as effective as targeting CSS elements with an id attribute
