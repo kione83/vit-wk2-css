@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+}
+.header {
+    grid-area: header;
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgrey;
+}
+/* .left-side {
+    grid-area: menu;
+    width: 10vw;
+    height: 70vh;
+    background-color: crimson;
+} */
+.main { 
+    grid-area: main;
+    width: 90vw;
+    height: 80vh;
+}
+.aside {
+    grid-area: right; 
+    width: 10vw;
+    height: 80vh;
+    background-color: lightblue;
+}
+.footer {
+    grid-area: footer; 
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgrey;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main right'
+    'main main main main main right'
+    'footer footer footer footer footer footer';
+    margin: 0;
+}
+
+.grid-container > div {
+    text-align: center;
+}
